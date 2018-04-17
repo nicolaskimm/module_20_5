@@ -4,7 +4,7 @@ import CountryFlag from './flag.component';
 
 const CountryFlagList = (props) => (
 	<div className='countries-list'>
-		{props. countries.map(country => {
+		{props.countries.map(country => {
 			return (
 				<div className='single-country' key={country.id}>
 					<Link className='logo' to={'countries/country/' + country.id}>
